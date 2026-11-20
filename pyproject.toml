@@ -1,0 +1,11 @@
+[tool.ruff]
+line-length = 88
+src = ["api", "pages", "tests", "utils"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+docstring-code-format = true

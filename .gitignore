@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ruff_cache/
+
+# Pytest and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+trace.zip
+
+# Allure
+allure-results/
+allure-report/
+
+# Editors and OS
+.DS_Store
+.idea/
+*.swp
